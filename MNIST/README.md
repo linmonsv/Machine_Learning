@@ -27,6 +27,8 @@ python /home/d/Documents/caffe/python/draw_net.py lenet_train_val.prototxt mlp_t
 
 /home/d/Documents/caffe/build/tools/caffe time -model lenet.prototxt
 
+python recognize_digit.py test.txt
+
 ```
 
 
