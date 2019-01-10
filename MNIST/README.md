@@ -21,6 +21,8 @@ python /home/d/Documents/caffe/tools/extra/plot_training_log.py.example 0 accura
 
 python /home/d/Documents/caffe/tools/extra/plot_training_log.py.example 2 loss_iters.png caffe.ubuntu.d.log
 
+python /home/d/Documents/caffe/python/draw_net.py lenet_train_val.prototxt mlp_train.png --rankdir BT
+
 ```
 
 
