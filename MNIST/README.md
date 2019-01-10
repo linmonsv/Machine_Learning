@@ -17,4 +17,10 @@ python gen_caffe_imglist.py mnist/test test.txt
 
 /home/d/Documents/caffe/build/tools/caffe train -solver lenet_solver.prototxt -log_dir ./
 
+/home/d/Documents/caffe/build/tools/extra/plot_training_log.py.example 0 accuracy_iters.png log-data.log
+
+/home/d/Documents/caffe/build/tools/extra/plot_training_log.py.example 2 loss_iters.png log-data.log
+
 ```
+
+
