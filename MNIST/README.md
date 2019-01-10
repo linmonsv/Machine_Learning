@@ -29,6 +29,8 @@ python /home/d/Documents/caffe/python/draw_net.py lenet_train_val.prototxt mlp_t
 
 python recognize_digit.py test.txt
 
+python run_augmentation.py mnist/train/ mnist/augmented 250000 --rotate_angle_vari=15 --p_mirror=0 --p_hsv=0 --p_gamma=0
+
 ```
 
 
