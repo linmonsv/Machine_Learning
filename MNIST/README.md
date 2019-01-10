@@ -25,6 +25,8 @@ python /home/d/Documents/caffe/python/draw_net.py lenet_train_val.prototxt mlp_t
 
 /home/d/Documents/caffe/build/tools/caffe test -model lenet_test.prototxt -weights mnist_lenet_iter_36000.caffemodel -iterations 100
 
+/home/d/Documents/caffe/build/tools/caffe time -model lenet.prototxt
+
 ```
 
 
