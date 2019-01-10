@@ -23,6 +23,8 @@ python /home/d/Documents/caffe/tools/extra/plot_training_log.py.example 2 loss_i
 
 python /home/d/Documents/caffe/python/draw_net.py lenet_train_val.prototxt mlp_train.png --rankdir BT
 
+/home/d/Documents/caffe/build/tools/caffe test -model lenet_test.prototxt -weights mnist_lenet_iter_36000.caffemodel -iterations 100
+
 ```
 
 
