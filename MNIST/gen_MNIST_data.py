@@ -18,7 +18,8 @@ for dataname, dataset in datasets.items():
 
     for i, (img, label) in enumerate(zip(*dataset)):
 
-        filename = '{: 0>6d}_{}.jpg'.format(i, label)
+        filename = '{:0>6d}_{}.jpg'.format(i, label)
+
         filepath = os.sep.join([data_dir, filename])
 
         img = img.reshape((28, 28))
