@@ -31,6 +31,12 @@ python recognize_digit.py test.txt
 
 python run_augmentation.py mnist/train/ mnist/augmented 250000 --rotate_angle_vari=15 --p_mirror=0 --p_hsv=0 --p_gamma=0
 
+python gen_caffe_imglist.py mnist/augmented augmented.txt
+
+cat train.txt augmented.txt > train_aug.txt
+
+/home/d/Documents/caffe/build/tools/convert_imageset ./ train_aug.txt train_aug_lmdb --resize_width=28 --resize_height=28 --gray --shuffle
+
 ```
 
 
