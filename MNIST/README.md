@@ -43,6 +43,22 @@ python /home/d/Documents/caffe/tools/extra/plot_training_log.py.example 0 accura
 
 python /home/d/Documents/caffe/tools/extra/plot_training_log.py.example 2 loss_iters_aug.png mnist_train.log mnist_train_with_augmentation.log
 
+/home/d/Documents/caffe/build/tools/caffe train -solver lenet_solver_aug.prototxt -snapshot mnist_aug_lenet_iter_36000.solverstate -log_dir ./
+
 ```
 
+```bash
 
+python gen_mxnet_imglist.py mnist/train train.lst
+
+python gen_mxnet_imglist.py mnist/val val.lst
+
+python gen_mxnet_imglist.py mnist/test test.lst
+
+/home/d/mxnet/bin/im2rec train.lst ./ train.rec color=0
+
+/home/d/mxnet/bin/im2rec val.lst ./ val.rec color=0
+
+/home/d/mxnet/bin/im2rec test.lst ./ test.rec color=0
+
+```
