@@ -37,6 +37,8 @@ cat train.txt augmented.txt > train_aug.txt
 
 /home/d/Documents/caffe/build/tools/convert_imageset ./ train_aug.txt train_aug_lmdb --resize_width=28 --resize_height=28 --gray --shuffle
 
+/home/d/Documents/caffe/build/tools/caffe train -solver lenet_solver_aug.prototxt -log_dir ./
+
 ```
 
 
