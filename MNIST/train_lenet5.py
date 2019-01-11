@@ -49,12 +49,12 @@ fh = logging.FileHandler('train_mnist_lenet.log')
 loggin.getLogger().addhandler(fh)
 
 lr_scheduler = mx.lr_scheduler.FactorScheduler(1000, factor=0.95)
-optimizer_params = (
-	'learning_rate':	0.01, 
+optimizer_params = {
+	'learning_rate':	0.01,
 	'momentum':	0.9, 
-	'wd':	0.0005
+	'wd':	0.0005,
 	'lr_scheduler':	lr_scheduler
-)
+}
 
 checkpoint = mx.callback.do_checkpoint('mnist_lenet', period=5)
 
