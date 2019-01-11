@@ -21,45 +21,45 @@ mod = mx.mod.Module(lenet5)
 #
 
 train_dataiter = mx.io.ImageRecordIter(
-	path_imgrec="train.rec", 
-	data_shape=(1, 28, 28), 
-	batch_size=50, 
-	mean_r=128, 
-	scale=0.00390625, 
-	rand_crop=True, 
-	min_crop_size=24, 
-	max_crop_size=28, 
-	max_rotate_angle=15, 
-	fill_value=0
+    path_imgrec="train.rec",
+    data_shape=(1, 28, 28),
+    batch_size=50,
+    mean_r=128,
+    scale=0.00390625,
+    rand_crop=True,
+    min_crop_size=24,
+    max_crop_size=28,
+    max_rotate_angle=15,
+    fill_value=0
 )
 val_dataiter = mx.io.ImageRecordIter(
-	path_imgrec="val.rec", 
-	data_shape=(1, 28, 28), 
-	batch_size=100, 
-	mean_r=128, 
-	scale=0.00390625, 
+    path_imgrec="val.rec",
+    data_shape=(1, 28, 28),
+    batch_size=100,
+    mean_r=128,
+    scale=0.00390625,
 )
 
 #
 
 import logging
 
-logging.getLogger().setLevel(loggin.DEBUG)
+logging.getLogger().setLevel(logging.DEBUG)
 fh = logging.FileHandler('train_mnist_lenet.log')
-loggin.getLogger().addhandler(fh)
+logging.getLogger().addhandler(fh)
 
 lr_scheduler = mx.lr_scheduler.FactorScheduler(1000, factor=0.95)
 optimizer_params = {
-	'learning_rate':	0.01,
-	'momentum':	0.9, 
-	'wd':	0.0005,
-	'lr_scheduler':	lr_scheduler
+    'learning_rate': 0.01,
+    'momentum': 0.9,
+    'wd': 0.0005,
+    'lr_scheduler': lr_scheduler
 }
 
 checkpoint = mx.callback.do_checkpoint('mnist_lenet', period=5)
 
-mod.fit(train_dataiter, 
-			eval_data=val_dataiter, 
-			optimizer_params=optimizer_params, 
-			num_epoch=36, 
-			epoch_end_callback=checkpoint)
+mod.fit(train_dataiter,
+        eval_data=val_dataiter,
+        optimizer_params=optimizer_params,
+        num_epoch=36,
+        epoch_end_callback=checkpoint)

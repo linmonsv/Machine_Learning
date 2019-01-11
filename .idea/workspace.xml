@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47ac12ec-74fa-45a7-878c-7b9a63ac5acb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MNIST/recognize_digit_mxnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST/recognize_digit_mxnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST/test_time_mxnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST/test_time_mxnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST/train_lenet5.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST/train_lenet5.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MNIST/train_lenet5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MNIST/test_time_mxnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MNIST/recognize_digit_mxnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MNIST/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="544">
+                <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MNIST/lenet_train_val.prototxt.py" />
+        <option value="$PROJECT_DIR$/MNIST/lenet_train_val.prototxt" />
+        <option value="$PROJECT_DIR$/MNIST/lenet_solver.prototxt" />
+        <option value="$PROJECT_DIR$/MNIST/README.md" />
+        <option value="$PROJECT_DIR$/MNIST/lenet_test.prototxt" />
+        <option value="$PROJECT_DIR$/MNIST/test.py" />
+        <option value="$PROJECT_DIR$/MNIST/recognize_digit.py" />
+        <option value="$PROJECT_DIR$/MNIST/lenet_solver_aug.prototxt" />
+        <option value="$PROJECT_DIR$/MNIST/gen_mxnet_imglist.py" />
+        <option value="$PROJECT_DIR$/MNIST/train_lenet5.py" />
+        <option value="$PROJECT_DIR$/MNIST/recognize_digit_mxnet.py" />
+        <option value="$PROJECT_DIR$/MNIST/test_time_mxnet.py" />
+        <option value="$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1012" />
+    <option name="width" value="2113" />
+    <option name="height" value="1349" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine_Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="MNIST" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MNIST" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="io.protostuff.jetbrains.plugin.settings.ProtobufSettingsConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machine_Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\tmp2019\0108\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MNIST" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib_2D_Sample/Matplotlib_2D_Sample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Machine_Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\tmp2019\0108\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.MNIST" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\d\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47ac12ec-74fa-45a7-878c-7b9a63ac5acb" name="Default Changelist" comment="" />
+      <created>1547082582844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547082582844</updated>
+      <workItem from="1547082584247" duration="977000" />
+      <workItem from="1547083575963" duration="48000" />
+      <workItem from="1547084525989" duration="2920000" />
+      <workItem from="1547088601353" duration="15375000" />
+      <workItem from="1547169766834" duration="280000" />
+      <workItem from="1547170360344" duration="2493000" />
+      <workItem from="1547177979255" duration="3835000" />
+    </task>
+    <task id="LOCAL-00001" summary="add Matplotlib_2D_Sample">
+      <created>1547082838538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547082838538</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add Matplotlib_3D_Sample">
+      <created>1547083333632</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547083333632</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add OpenCV_Sample">
+      <created>1547083360753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547083360753</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add MXNet_Sample">
+      <created>1547083382323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547083382323</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add Caffe_Sample">
+      <created>1547083400051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547083400051</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add MNIST">
+      <created>1547085576379</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547085576379</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add gen_caffe_imglist&#10;&#10;wget http://deeplearning.net/data/mnist/mnist.pkl.gz&#10;&#10;python gen_caffe_imglist.py mnist/train train.txt&#10;&#10;python gen_caffe_imglist.py mnist/val val.txt&#10;&#10;python gen_caffe_imglist.py mnist/test test.txt&#10;&#10;/home/d/Documents/caffe/build/tools/convert_imageset ./ train.txt train_lmdb --gray --shuffle&#10;&#10;/home/d/Documents/caffe/build/tools/convert_imageset ./ val.txt val_lmdb --gray --shuffle&#10;&#10;/home/d/Documents/caffe/build/tools/convert_imageset ./ test.txt test_lmdb --gray --shuffle">
+      <created>1547087281921</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547087281921</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add MNIST README.md">
+      <created>1547087753970</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547087753970</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add train solver">
+      <created>1547089859014</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1547089859014</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add .idea">
+      <created>1547090892600</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547090892600</updated>
+    </task>
+    <task id="LOCAL-00011" summary="I0109 19:42:27.145464 59220 caffe.cpp:250] Optimization Done.">
+      <created>1547091794535</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1547091794536</updated>
+    </task>
+    <task id="LOCAL-00012" summary="plot_training_log.py.example to gen PNG">
+      <created>1547092093433</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547092093433</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add result png">
+      <created>1547092334700</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547092334700</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Drawing net to mlp_train.png">
+      <created>1547099026547</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547099026547</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add lenet_test.prototxt">
+      <created>1547099248026</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547099248026</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add test -model&#10;&#10;I0109 21:49:18.030835 59982 caffe.cpp:309] Loss: 0.0264858&#10;I0109 21:49:18.030846 59982 caffe.cpp:321] accuracy = 0.991&#10;I0109 21:49:18.030853 59982 caffe.cpp:321] loss = 0.0264858 (* 1 = 0.0264858 loss)">
+      <created>1547099399307</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1547099399307</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add time -model&#10;&#10;I0109 21:56:03.317929 60000 caffe.cpp:397] Average time per layer: &#10;I0109 21:56:03.317932 60000 caffe.cpp:400]       data&#9;forward: 0.00072 ms.&#10;I0109 21:56:03.317936 60000 caffe.cpp:403]       data&#9;backward: 0.00102 ms.&#10;I0109 21:56:03.317939 60000 caffe.cpp:400]      conv1&#9;forward: 9.71986 ms.&#10;I0109 21:56:03.317942 60000 caffe.cpp:403]      conv1&#9;backward: 10.3973 ms.&#10;I0109 21:56:03.317945 60000 caffe.cpp:400]      pool1&#9;forward: 1.90086 ms.&#10;I0109 21:56:03.317948 60000 caffe.cpp:403]      pool1&#9;backward: 0.00132 ms.&#10;I0109 21:56:03.317950 60000 caffe.cpp:400]      conv2&#9;forward: 34.7447 ms.&#10;I0109 21:56:03.317953 60000 caffe.cpp:403]      conv2&#9;backward: 33.2242 ms.&#10;I0109 21:56:03.317956 60000 caffe.cpp:400]      pool2&#9;forward: 1.15896 ms.&#10;I0109 21:56:03.317960 60000 caffe.cpp:403]      pool2&#9;backward: 0.00094 ms.&#10;I0109 21:56:03.317962 60000 caffe.cpp:400]        ip1&#9;forward: 7.949 ms.&#10;I0109 21:56:03.317987 60000 caffe.cpp:403]        ip1&#9;backward: 7.82392 ms.&#10;I0109 21:56:03.317991 60000 caffe.cpp:400]      relu1&#9;forward: 0.14822 ms.&#10;I0109 21:56:03.317996 60000 caffe.cpp:403]      relu1&#9;backward: 0.00024 ms.&#10;I0109 21:56:03.318001 60000 caffe.cpp:400]        ip2&#9;forward: 0.25124 ms.&#10;I0109 21:56:03.318006 60000 caffe.cpp:403]        ip2&#9;backward: 0.1341 ms.&#10;I0109 21:56:03.318011 60000 caffe.cpp:400]       prob&#9;forward: 0.02432 ms.&#10;I0109 21:56:03.318015 60000 caffe.cpp:403]       prob&#9;backward: 0.00956 ms.&#10;I0109 21:56:03.318025 60000 caffe.cpp:408] Average Forward pass: 55.9088 ms.&#10;I0109 21:56:03.318030 60000 caffe.cpp:410] Average Backward pass: 51.6014 ms.&#10;I0109 21:56:03.318033 60000 caffe.cpp:412] Average Forward-Backward: 107.56 ms.&#10;I0109 21:56:03.318035 60000 caffe.cpp:414] Total Time: 5378 ms.&#10;I0109 21:56:03.318039 60000 caffe.cpp:415] *** Benchmark ends ***">
+      <created>1547099799440</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1547099799440</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add recognize_digit.py">
+      <created>1547100813877</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1547100813877</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add recognize_digit.py">
+      <created>1547100895587</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1547100895587</updated>
+    </task>
+    <task id="LOCAL-00020" summary="run_augmentation">
+      <created>1547101104450</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1547101104450</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add *aug.prototxt">
+      <created>1547102429944</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1547102429944</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add train_aug.txt">
+      <created>1547102723095</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547102723095</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add train_aug_lmdb">
+      <created>1547103200382</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1547103200382</updated>
+    </task>
+    <task id="LOCAL-00024" summary="train aug">
+      <created>1547103385129</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1547103385129</updated>
+    </task>
+    <task id="LOCAL-00025" summary="aug train 36000&#10;&#10;I0109 23:31:16.763676 60247 solver.cpp:414]     Test net output #0: accuracy = 0.9903&#10;I0109 23:31:16.763730 60247 solver.cpp:414]     Test net output #1: loss = 0.0356052 (* 1 = 0.0356052 loss)&#10;I0109 23:31:16.763736 60247 solver.cpp:332] Optimization Done.&#10;I0109 23:31:16.763945 60247 caffe.cpp:250] Optimization Done.">
+      <created>1547105528464</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1547105528464</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add *aug.png">
+      <created>1547105948211</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1547105948211</updated>
+    </task>
+    <task id="LOCAL-00027" summary="max_iter:   120000">
+      <created>1547106130753</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1547106130753</updated>
+    </task>
+    <task id="LOCAL-00028" summary="train 120000">
+      <created>1547114295517</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1547114295517</updated>
+    </task>
+    <task id="LOCAL-00029" summary="lfs mdb">
+      <created>1547185174938</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1547185174938</updated>
+    </task>
+    <task id="LOCAL-00030" summary="caffe train">
+      <created>1547185343908</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1547185343908</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add *aug.png">
+      <created>1547185420065</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1547185420065</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add aug iter 120000">
+      <created>1547185472274</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1547185472274</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add gen_mxnet_imglist">
+      <created>1547185501165</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1547185501165</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update README.md">
+      <created>1547185633645</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1547185633645</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add mxnet py">
+      <created>1547185864599</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1547185864599</updated>
+    </task>
+    <task id="LOCAL-00036" summary="update optimizer_params">
+      <created>1547187148578</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1547187148578</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25928000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="810" y="0" width="1690" height="1079" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15030675" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.250264" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012407" side_tool="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4987593" weight="0.32911393" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49295774" visible="true" weight="0.17791411" />
+      <window_info anchor="right" x="0" y="0" width="327" height="880" id="Documentation" order="4" sideWeight="0.5070422" side_tool="true" visible="true" weight="0.17791411" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .idea" />
+    <MESSAGE value="I0109 19:42:27.145464 59220 caffe.cpp:250] Optimization Done." />
+    <MESSAGE value="plot_training_log.py.example to gen PNG" />
+    <MESSAGE value="add result png" />
+    <MESSAGE value="Drawing net to mlp_train.png" />
+    <MESSAGE value="add lenet_test.prototxt" />
+    <MESSAGE value="add test -model&#10;&#10;I0109 21:49:18.030835 59982 caffe.cpp:309] Loss: 0.0264858&#10;I0109 21:49:18.030846 59982 caffe.cpp:321] accuracy = 0.991&#10;I0109 21:49:18.030853 59982 caffe.cpp:321] loss = 0.0264858 (* 1 = 0.0264858 loss)" />
+    <MESSAGE value="add time -model&#10;&#10;I0109 21:56:03.317929 60000 caffe.cpp:397] Average time per layer: &#10;I0109 21:56:03.317932 60000 caffe.cpp:400]       data&#9;forward: 0.00072 ms.&#10;I0109 21:56:03.317936 60000 caffe.cpp:403]       data&#9;backward: 0.00102 ms.&#10;I0109 21:56:03.317939 60000 caffe.cpp:400]      conv1&#9;forward: 9.71986 ms.&#10;I0109 21:56:03.317942 60000 caffe.cpp:403]      conv1&#9;backward: 10.3973 ms.&#10;I0109 21:56:03.317945 60000 caffe.cpp:400]      pool1&#9;forward: 1.90086 ms.&#10;I0109 21:56:03.317948 60000 caffe.cpp:403]      pool1&#9;backward: 0.00132 ms.&#10;I0109 21:56:03.317950 60000 caffe.cpp:400]      conv2&#9;forward: 34.7447 ms.&#10;I0109 21:56:03.317953 60000 caffe.cpp:403]      conv2&#9;backward: 33.2242 ms.&#10;I0109 21:56:03.317956 60000 caffe.cpp:400]      pool2&#9;forward: 1.15896 ms.&#10;I0109 21:56:03.317960 60000 caffe.cpp:403]      pool2&#9;backward: 0.00094 ms.&#10;I0109 21:56:03.317962 60000 caffe.cpp:400]        ip1&#9;forward: 7.949 ms.&#10;I0109 21:56:03.317987 60000 caffe.cpp:403]        ip1&#9;backward: 7.82392 ms.&#10;I0109 21:56:03.317991 60000 caffe.cpp:400]      relu1&#9;forward: 0.14822 ms.&#10;I0109 21:56:03.317996 60000 caffe.cpp:403]      relu1&#9;backward: 0.00024 ms.&#10;I0109 21:56:03.318001 60000 caffe.cpp:400]        ip2&#9;forward: 0.25124 ms.&#10;I0109 21:56:03.318006 60000 caffe.cpp:403]        ip2&#9;backward: 0.1341 ms.&#10;I0109 21:56:03.318011 60000 caffe.cpp:400]       prob&#9;forward: 0.02432 ms.&#10;I0109 21:56:03.318015 60000 caffe.cpp:403]       prob&#9;backward: 0.00956 ms.&#10;I0109 21:56:03.318025 60000 caffe.cpp:408] Average Forward pass: 55.9088 ms.&#10;I0109 21:56:03.318030 60000 caffe.cpp:410] Average Backward pass: 51.6014 ms.&#10;I0109 21:56:03.318033 60000 caffe.cpp:412] Average Forward-Backward: 107.56 ms.&#10;I0109 21:56:03.318035 60000 caffe.cpp:414] Total Time: 5378 ms.&#10;I0109 21:56:03.318039 60000 caffe.cpp:415] *** Benchmark ends ***" />
+    <MESSAGE value="add recognize_digit.py" />
+    <MESSAGE value="run_augmentation" />
+    <MESSAGE value="add *aug.prototxt" />
+    <MESSAGE value="add train_aug.txt" />
+    <MESSAGE value="add train_aug_lmdb" />
+    <MESSAGE value="train aug" />
+    <MESSAGE value="aug train 36000&#10;&#10;I0109 23:31:16.763676 60247 solver.cpp:414]     Test net output #0: accuracy = 0.9903&#10;I0109 23:31:16.763730 60247 solver.cpp:414]     Test net output #1: loss = 0.0356052 (* 1 = 0.0356052 loss)&#10;I0109 23:31:16.763736 60247 solver.cpp:332] Optimization Done.&#10;I0109 23:31:16.763945 60247 caffe.cpp:250] Optimization Done." />
+    <MESSAGE value="max_iter:   120000" />
+    <MESSAGE value="train 120000" />
+    <MESSAGE value="lfs mdb" />
+    <MESSAGE value="caffe train" />
+    <MESSAGE value="add *aug.png" />
+    <MESSAGE value="add aug iter 120000" />
+    <MESSAGE value="add gen_mxnet_imglist" />
+    <MESSAGE value="update README.md" />
+    <MESSAGE value="add mxnet py" />
+    <MESSAGE value="update optimizer_params" />
+    <option name="LAST_COMMIT_MESSAGE" value="update optimizer_params" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Matplotlib_2D_Sample/Matplotlib_2D_Sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="6" selection-start-column="6" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/val.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/train.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/lenet_train_val.prototxt.py" />
+    <entry file="file://$PROJECT_DIR$/MNIST/lenet_train_val.proto" />
+    <entry file="file://$PROJECT_DIR$/MNIST/gen_MNIST_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/test.py" />
+    <entry file="file://$PROJECT_DIR$/MNIST/lenet.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/recognize_digit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/lenet_train_val.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3009">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/lenet_solver.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/lenet_test.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2110">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/lenet_train_val_aug.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/lenet_solver_aug.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/gen_mxnet_imglist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="544">
+            <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/test_time_mxnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/recognize_digit_mxnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/train_lenet5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
