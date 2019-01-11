@@ -61,4 +61,8 @@ python gen_mxnet_imglist.py mnist/test test.lst
 
 /home/d/mxnet/bin/im2rec test.lst ./ test.rec color=0
 
+python train_lenet5.py
+
+python /home/d/mxnet/example/kaggle-ndsb1/training_curves.py --log-file=train_mnist_lenet.log
+
 ```
