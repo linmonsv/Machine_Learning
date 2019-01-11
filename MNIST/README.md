@@ -39,6 +39,10 @@ cat train.txt augmented.txt > train_aug.txt
 
 /home/d/Documents/caffe/build/tools/caffe train -solver lenet_solver_aug.prototxt -log_dir ./
 
+python /home/d/Documents/caffe/tools/extra/plot_training_log.py.example 0 accuracy_iters_aug.png mnist_train.log mnist_train_with_augmentation.log
+
+python /home/d/Documents/caffe/tools/extra/plot_training_log.py.example 2 loss_iters_aug.png mnist_train.log mnist_train_with_augmentation.log
+
 ```
 
 
