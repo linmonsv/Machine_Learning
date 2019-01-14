@@ -2,14 +2,14 @@ import time
 import mxnet as mx
 
 benchmark_dataiter = mx.io.ImageRecordIter(
-    patch_imgrec="test.rec",
+    path_imgrec="test.rec",
     data_shape=(1, 28, 28),
     batch_size=64,
     mean_r=128,
     scale=0.00390625,
 )
 
-mod = mx.mod.Module.load('mnist_lenet', 35)
+mod = mx.mod.Module.load('mnist_lenet', 35, context=mx.gpu(0))
 mod.bind(
     data_shapes=benchmark_dataiter.provide_data,
     label_shapes=benchmark_dataiter.provide_label,
