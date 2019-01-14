@@ -16,7 +16,7 @@ fc2 = mx.symbol.FullyConnected(data=relu1, num_hidden=10)
 
 lenet5 = mx.symbol.SoftmaxOutput(data=fc2, name='softmax')
 
-mod = mx.mod.Module(lenet5)
+mod = mx.mod.Module(lenet5, context=mx.gpu(0))
 
 #
 
