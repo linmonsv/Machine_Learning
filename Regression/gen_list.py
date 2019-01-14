@@ -18,6 +18,5 @@ with open('val.txt', 'w') as f_val_txt:
 
 with open('test.txt', 'w') as f_test_txt:
     for filename in filenames[60000:]:
-        fx, fy = filename2score(filename)
-        line = 'samples/{} {} {}\n'.format(filename, fx, fy)
+        line = 'samples/{}\n'.format(filename)
         f_test_txt.write(line)
