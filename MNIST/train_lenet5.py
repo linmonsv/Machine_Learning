@@ -1,4 +1,4 @@
-import mxnet as mxnet
+import mxnet as mx
 
 data = mx.symbol.Variable('data')
 
