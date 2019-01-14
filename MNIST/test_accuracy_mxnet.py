@@ -8,7 +8,7 @@ test_dataiter = mx.io.ImageRecordIter(
     scale=0.00390625,
 )
 
-mod = mx.mod.Module.load('mnist_lenet', 35)
+mod = mx.mod.Module.load('mnist_lenet', 35, context=mx.gpu(0))
 
 mod.bind(
     data_shapes=test_dataiter.provide_data,
