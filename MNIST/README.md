@@ -69,4 +69,6 @@ python test_accuracy_mxnet.py
 
 python test_time_mxnet.py 
 
+python recognize_digit_mxnet.py mnist/test
+
 ```
