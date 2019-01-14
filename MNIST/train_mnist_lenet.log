@@ -1,0 +1,150 @@
+Epoch[0] Train-accuracy=0.113180
+Epoch[0] Time cost=1.982
+Epoch[0] Validation-accuracy=0.106400
+Update[1001]: Change learning rate to 9.50000e-03
+Epoch[1] Train-accuracy=0.707440
+Epoch[1] Time cost=1.976
+Epoch[1] Validation-accuracy=0.958500
+Update[2001]: Change learning rate to 9.02500e-03
+Epoch[2] Train-accuracy=0.878300
+Epoch[2] Time cost=1.976
+Epoch[2] Validation-accuracy=0.977200
+Update[3001]: Change learning rate to 8.57375e-03
+Epoch[3] Train-accuracy=0.902000
+Epoch[3] Time cost=1.984
+Epoch[3] Validation-accuracy=0.980200
+Update[4001]: Change learning rate to 8.14506e-03
+Epoch[4] Train-accuracy=0.911480
+Epoch[4] Time cost=2.010
+Saved checkpoint to "mnist_lenet-0005.params"
+Epoch[4] Validation-accuracy=0.983800
+Update[5001]: Change learning rate to 7.73781e-03
+Epoch[5] Train-accuracy=0.918300
+Epoch[5] Time cost=2.026
+Epoch[5] Validation-accuracy=0.985800
+Update[6001]: Change learning rate to 7.35092e-03
+Epoch[6] Train-accuracy=0.924420
+Epoch[6] Time cost=1.976
+Epoch[6] Validation-accuracy=0.984300
+Update[7001]: Change learning rate to 6.98337e-03
+Epoch[7] Train-accuracy=0.928620
+Epoch[7] Time cost=1.974
+Epoch[7] Validation-accuracy=0.988200
+Update[8001]: Change learning rate to 6.63420e-03
+Epoch[8] Train-accuracy=0.929920
+Epoch[8] Time cost=2.003
+Epoch[8] Validation-accuracy=0.988100
+Update[9001]: Change learning rate to 6.30249e-03
+Epoch[9] Train-accuracy=0.930320
+Epoch[9] Time cost=1.981
+Saved checkpoint to "mnist_lenet-0010.params"
+Epoch[9] Validation-accuracy=0.989500
+Update[10001]: Change learning rate to 5.98737e-03
+Epoch[10] Train-accuracy=0.933840
+Epoch[10] Time cost=2.013
+Epoch[10] Validation-accuracy=0.988300
+Update[11001]: Change learning rate to 5.68800e-03
+Epoch[11] Train-accuracy=0.935240
+Epoch[11] Time cost=1.982
+Epoch[11] Validation-accuracy=0.988900
+Update[12001]: Change learning rate to 5.40360e-03
+Epoch[12] Train-accuracy=0.936540
+Epoch[12] Time cost=1.997
+Epoch[12] Validation-accuracy=0.990100
+Update[13001]: Change learning rate to 5.13342e-03
+Epoch[13] Train-accuracy=0.938740
+Epoch[13] Time cost=1.990
+Epoch[13] Validation-accuracy=0.989900
+Update[14001]: Change learning rate to 4.87675e-03
+Epoch[14] Train-accuracy=0.938620
+Epoch[14] Time cost=2.104
+Saved checkpoint to "mnist_lenet-0015.params"
+Epoch[14] Validation-accuracy=0.990900
+Update[15001]: Change learning rate to 4.63291e-03
+Epoch[15] Train-accuracy=0.939060
+Epoch[15] Time cost=1.992
+Epoch[15] Validation-accuracy=0.989300
+Update[16001]: Change learning rate to 4.40127e-03
+Epoch[16] Train-accuracy=0.940200
+Epoch[16] Time cost=1.997
+Epoch[16] Validation-accuracy=0.989900
+Update[17001]: Change learning rate to 4.18120e-03
+Epoch[17] Train-accuracy=0.941760
+Epoch[17] Time cost=1.996
+Epoch[17] Validation-accuracy=0.989700
+Update[18001]: Change learning rate to 3.97214e-03
+Epoch[18] Train-accuracy=0.943220
+Epoch[18] Time cost=1.988
+Epoch[18] Validation-accuracy=0.991600
+Update[19001]: Change learning rate to 3.77354e-03
+Epoch[19] Train-accuracy=0.942480
+Epoch[19] Time cost=1.999
+Saved checkpoint to "mnist_lenet-0020.params"
+Epoch[19] Validation-accuracy=0.991800
+Update[20001]: Change learning rate to 3.58486e-03
+Epoch[20] Train-accuracy=0.941660
+Epoch[20] Time cost=1.994
+Epoch[20] Validation-accuracy=0.990900
+Update[21001]: Change learning rate to 3.40562e-03
+Epoch[21] Train-accuracy=0.943920
+Epoch[21] Time cost=1.993
+Epoch[21] Validation-accuracy=0.992700
+Update[22001]: Change learning rate to 3.23534e-03
+Epoch[22] Train-accuracy=0.945960
+Epoch[22] Time cost=1.978
+Epoch[22] Validation-accuracy=0.992200
+Update[23001]: Change learning rate to 3.07357e-03
+Epoch[23] Train-accuracy=0.947800
+Epoch[23] Time cost=1.987
+Epoch[23] Validation-accuracy=0.990700
+Update[24001]: Change learning rate to 2.91989e-03
+Epoch[24] Train-accuracy=0.946840
+Epoch[24] Time cost=1.997
+Saved checkpoint to "mnist_lenet-0025.params"
+Epoch[24] Validation-accuracy=0.991200
+Update[25001]: Change learning rate to 2.77390e-03
+Epoch[25] Train-accuracy=0.947360
+Epoch[25] Time cost=1.993
+Epoch[25] Validation-accuracy=0.992500
+Update[26001]: Change learning rate to 2.63520e-03
+Epoch[26] Train-accuracy=0.946780
+Epoch[26] Time cost=2.004
+Epoch[26] Validation-accuracy=0.992600
+Update[27001]: Change learning rate to 2.50344e-03
+Epoch[27] Train-accuracy=0.946980
+Epoch[27] Time cost=2.012
+Epoch[27] Validation-accuracy=0.992100
+Update[28001]: Change learning rate to 2.37827e-03
+Epoch[28] Train-accuracy=0.948560
+Epoch[28] Time cost=2.004
+Epoch[28] Validation-accuracy=0.992300
+Update[29001]: Change learning rate to 2.25936e-03
+Epoch[29] Train-accuracy=0.947280
+Epoch[29] Time cost=1.995
+Saved checkpoint to "mnist_lenet-0030.params"
+Epoch[29] Validation-accuracy=0.992800
+Update[30001]: Change learning rate to 2.14639e-03
+Epoch[30] Train-accuracy=0.948180
+Epoch[30] Time cost=2.023
+Epoch[30] Validation-accuracy=0.992400
+Update[31001]: Change learning rate to 2.03907e-03
+Epoch[31] Train-accuracy=0.950160
+Epoch[31] Time cost=1.983
+Epoch[31] Validation-accuracy=0.991800
+Update[32001]: Change learning rate to 1.93711e-03
+Epoch[32] Train-accuracy=0.948900
+Epoch[32] Time cost=1.964
+Epoch[32] Validation-accuracy=0.992600
+Update[33001]: Change learning rate to 1.84026e-03
+Epoch[33] Train-accuracy=0.949620
+Epoch[33] Time cost=1.981
+Epoch[33] Validation-accuracy=0.992500
+Update[34001]: Change learning rate to 1.74825e-03
+Epoch[34] Train-accuracy=0.950180
+Epoch[34] Time cost=2.046
+Saved checkpoint to "mnist_lenet-0035.params"
+Epoch[34] Validation-accuracy=0.992200
+Update[35001]: Change learning rate to 1.66083e-03
+Epoch[35] Train-accuracy=0.950260
+Epoch[35] Time cost=1.984
+Epoch[35] Validation-accuracy=0.991900
