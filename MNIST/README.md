@@ -65,4 +65,6 @@ python train_lenet5.py
 
 python /home/d/mxnet/example/kaggle-ndsb1/training_curves.py --log-file=train_mnist_lenet.log
 
+python test_accuracy_mxnet.py
+
 ```
