@@ -46,7 +46,7 @@ import logging
 
 logging.getLogger().setLevel(logging.DEBUG)
 fh = logging.FileHandler('train_mnist_lenet.log')
-logging.getLogger().addhandler(fh)
+logging.getLogger().addHandler(fh)
 
 lr_scheduler = mx.lr_scheduler.FactorScheduler(1000, factor=0.95)
 optimizer_params = {
