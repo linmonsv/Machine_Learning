@@ -8,7 +8,7 @@ MEAN_VALUE = 128
 
 net = caffe.Net(DEPLOY_FILE, WEIGHTS_FILE, caffe.TEST)
 
-transformer = caffe.io.Transformat(('data': net.blobs['data'].data.shape))
+transformer = caffe.io.Transformer({'data': net.blobs['data'].data.shape})
 
 transformer.set_transpose('data', (2, 0, 1))
 
@@ -37,7 +37,7 @@ with open(image_list, 'r') as f:
             freqs = output['pred']
 
             for filename, (fx, fy) in zip(filenames, freqs):
-                print('Predicted frequencies for {:.2f} is {:.2f} and {}'.format(filename, ))
+                print('Predicted frequencies for {} is {:.2f} and {:.2f}'.format(filename, fx, fy))
 
             i = 0
-            filename = []
+            filenames = []
