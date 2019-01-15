@@ -41,6 +41,6 @@ python gen_label_list.py val
 
 python /home/d/Documents/caffe/python/draw_net.py food_resnet_10_cvgj_finetune.prototxt train.png --rankdir BT
 
-
+/home/d/Documents/caffe/build/tools/caffe train -solver solver.prototxt -weights resnet10_cvgj_iter_320000.caffemodel -log_dir ./
 
 ```
