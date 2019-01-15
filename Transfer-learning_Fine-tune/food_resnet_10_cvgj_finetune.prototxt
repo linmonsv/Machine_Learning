@@ -11,7 +11,7 @@ layer   {
         mirror: false
     }
     data_param  {
-        source: "data/train_lmdb"
+        source: "train_lmdb"
         batch_size: 14
         backend:    LMDB
     }
@@ -28,7 +28,7 @@ layer   {
         mirror: false
     }
     data_param  {
-        source: "data/val_lmdb"
+        source: "val_lmdb"
         batch_size: 7
         backend:    LMDB
     }
