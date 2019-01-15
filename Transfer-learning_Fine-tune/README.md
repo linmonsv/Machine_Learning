@@ -43,4 +43,11 @@ python /home/d/Documents/caffe/python/draw_net.py food_resnet_10_cvgj_finetune.p
 
 /home/d/Documents/caffe/build/tools/caffe train -solver solver.prototxt -weights resnet10_cvgj_iter_320000.caffemodel -log_dir ./
 
+python recognize_food.py val.txt
+
+sudo apt-get install python-sklearn
+sudo pip install sklearn
+
+python make_confusion_matrix.py
+
 ```
