@@ -34,3 +34,13 @@ python gen_label_list.py val
 /home/d/Documents/caffe/build/tools/convert_imageset ./ val.txt val_lmdb -resize_width 224 -resize_height 224 --shuffle
 
 ```
+
+# Train
+
+```bash
+
+python /home/d/Documents/caffe/python/draw_net.py food_resnet_10_cvgj_finetune.prototxt train.png --rankdir BT
+
+
+
+```
