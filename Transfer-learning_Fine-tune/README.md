@@ -21,7 +21,9 @@ findimagedupes -R train > dup_list
 
 python remove_dups_from_list.py dup_list
 
-python augmentation.py
+python gen_val.py
+
+python gen_aug.py
 
 python gen_label_list.py train
 python gen_label_list.py val
