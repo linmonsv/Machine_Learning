@@ -43,11 +43,21 @@ python /home/d/Documents/caffe/python/draw_net.py food_resnet_10_cvgj_finetune.p
 
 /home/d/Documents/caffe/build/tools/caffe train -solver solver.prototxt -weights resnet10_cvgj_iter_320000.caffemodel -log_dir ./
 
+python /home/d/Documents/caffe/tools/extra/plot_training_log.py.example 2 tlft_test_loss_iters.png caffe.ubuntu.d.log
+python /home/d/Documents/caffe/tools/extra/plot_training_log.py.example 0 tlft_test_accuracy_iters.png caffe.ubuntu.d.log
+python /home/d/Documents/caffe/tools/extra/plot_training_log.py.example 6 tlft_train_loss_iters.png caffe.ubuntu.d.log
+
 python recognize_food.py val.txt
 
 sudo apt-get install python-sklearn
 sudo pip install sklearn
 
 python make_confusion_matrix.py
+
+python kaoya_PR_curve.py
+
+python kaoya_Receiver_Operating_Characteristic_curve.py
+
+python visualize_activation.py val_visualize_activation.txt
 
 ```

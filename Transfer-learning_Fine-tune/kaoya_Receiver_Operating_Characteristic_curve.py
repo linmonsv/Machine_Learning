@@ -36,7 +36,7 @@ szr_fpr, szr_tpr, szr_ths = roc_curve(is_szr, szr_scores)
 szr_auc = auc(szr_fpr, szr_tpr)
 
 plt.plot(ky_fpr, ky_tpr, 'k--', lw=2, label='Kao Ya ROC curve (auc = {:.2f})'.format(ky_auc))
-plt.plot(szr_fpr, szr_tpr, 'b-.', lw2=2, label='Shui Zhu Rou ROC curve (auc = {:.2f})'.format(szr_auc))
+plt.plot(szr_fpr, szr_tpr, 'b-.', lw=2, label='Shui Zhu Rou ROC curve (auc = {:.2f})'.format(szr_auc))
 plt.plot([0, 1], [0, 1], 'k', lw=1)
 plt.plot([0, 0, 1], [0, 1, 1], 'k:', lw=2)
 plt.xlim([-0.02, 1.0])

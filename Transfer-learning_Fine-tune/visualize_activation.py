@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
-sys.path.append('')
+sys.path.append('/home/d/Documents/caffe/python')
 import caffe
 WEIGHTS_FILE = 'food_resnet-10_iter_10000.caffemodel'
 DEPLOY_FILE = 'food_resnet_10_cvgj_deploy.prototxt'
@@ -59,5 +59,5 @@ with open(image_list, 'r') as f:
 
         vis_img = cv2.cvtColor(vis_img, cv2.COLOR_RGB2BGR)
         cv2.imshow('Activation Map Visualization', vis_img)
+        cv2.imwrite("tmp.jpg", vis_img)
         cv2.waitKey()
-
