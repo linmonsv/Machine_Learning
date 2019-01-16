@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47ac12ec-74fa-45a7-878c-7b9a63ac5acb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MNIST/recognize_digit_mxnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST/recognize_digit_mxnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST/test_time_mxnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST/test_time_mxnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST/train_lenet5.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST/train_lenet5.py" afterDir="false" />
+    <list default="true" id="47ac12ec-74fa-45a7-878c-7b9a63ac5acb" name="Default Changelist" comment="pdate pdatespdatetest_accuracy_mxnet&#10;&#10;accuracy = 99.33%">
+      <change afterPath="$PROJECT_DIR$/Metric_Learning/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Object_Detection/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Style_Transfer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,43 +13,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Machine_Learning$collect_data.coverage" NAME="collect_data Coverage Results" MODIFIED="1547519748872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Transfer-learning_Fine-tune" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MNIST/train_lenet5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py">
+        <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/kaoya_PR_curve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MNIST/test_time_mxnet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="595">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MNIST/recognize_digit_mxnet.py">
+        <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/kaoya_Receiver_Operating_Characteristic_curve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="187">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/visualize_activation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -58,13 +55,79 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MNIST/README.md">
+        <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/downscale.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/remove_invalid_images.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Regression/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="544">
-                <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Regression/deploy.prototxt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Regression/gen_predict_conv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MNIST/test_time_mxnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,30 +153,61 @@
         <option value="$PROJECT_DIR$/MNIST/lenet_train_val.prototxt.py" />
         <option value="$PROJECT_DIR$/MNIST/lenet_train_val.prototxt" />
         <option value="$PROJECT_DIR$/MNIST/lenet_solver.prototxt" />
-        <option value="$PROJECT_DIR$/MNIST/README.md" />
         <option value="$PROJECT_DIR$/MNIST/lenet_test.prototxt" />
         <option value="$PROJECT_DIR$/MNIST/test.py" />
         <option value="$PROJECT_DIR$/MNIST/recognize_digit.py" />
         <option value="$PROJECT_DIR$/MNIST/lenet_solver_aug.prototxt" />
         <option value="$PROJECT_DIR$/MNIST/gen_mxnet_imglist.py" />
         <option value="$PROJECT_DIR$/MNIST/train_lenet5.py" />
-        <option value="$PROJECT_DIR$/MNIST/recognize_digit_mxnet.py" />
-        <option value="$PROJECT_DIR$/MNIST/test_time_mxnet.py" />
         <option value="$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py" />
+        <option value="$PROJECT_DIR$/MNIST/README.md" />
+        <option value="$PROJECT_DIR$/MNIST/test_time_mxnet.py" />
+        <option value="$PROJECT_DIR$/MNIST/recognize_digit_mxnet.py" />
+        <option value="D:/tmp2019/0114/t1.py" />
+        <option value="$PROJECT_DIR$/Regression/gen_noise.py" />
+        <option value="$PROJECT_DIR$/Regression/gen_hdf5.py" />
+        <option value="$PROJECT_DIR$/Regression/lenet.prototxt" />
+        <option value="$PROJECT_DIR$/Regression/solver.prototxt" />
+        <option value="$PROJECT_DIR$/Regression/gen_list.py" />
+        <option value="$PROJECT_DIR$/Regression/deploy.prototxt" />
+        <option value="$PROJECT_DIR$/Regression/gen_predict_conv.py" />
+        <option value="$PROJECT_DIR$/Regression/predict.py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/keywords.txt" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/collect_data.py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/remove_invalid_images.py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/downscale.py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/remove_dups_from_list..py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/augmentation.py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/gen_aug.py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/gen_label_list.py" />
+        <option value="$PROJECT_DIR$/Regression/README.md" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/.gitignore" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/solver.prototxt" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/food_resnet_10_cvgj_finetune.prototxt" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/recognize_food.py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/README.md" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/make_confusion_matrix..py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/remove_dups_from_list.py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/kaoya_PR_curve.py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/kaoya_Receiver_Operating_Characteristic_curve.py" />
+        <option value="$PROJECT_DIR$/Transfer-learning_Fine-tune/visualize_activation.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1012" />
-    <option name="width" value="2113" />
+    <option name="x" value="1161" />
+    <option name="y" value="1" />
+    <option name="width" value="2725" />
     <option name="height" value="1349" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,15 +215,11 @@
               <item name="Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine_Learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Machine_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="MNIST" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,7 +227,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/MNIST" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="io.protostuff.jetbrains.plugin.settings.ProtobufSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.collect_data">
     <configuration name="MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine_Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,8 +286,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="collect_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machine_Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\tmp2019\0108\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Transfer-learning_Fine-tune" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Transfer-learning_Fine-tune/collect_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.collect_data" />
         <item itemvalue="Python.MNIST" />
       </list>
     </recent_temporary>
@@ -219,104 +332,15 @@
       <workItem from="1547169766834" duration="280000" />
       <workItem from="1547170360344" duration="2493000" />
       <workItem from="1547177979255" duration="3835000" />
-    </task>
-    <task id="LOCAL-00001" summary="add Matplotlib_2D_Sample">
-      <created>1547082838538</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1547082838538</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add Matplotlib_3D_Sample">
-      <created>1547083333632</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1547083333632</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add OpenCV_Sample">
-      <created>1547083360753</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1547083360753</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add MXNet_Sample">
-      <created>1547083382323</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1547083382323</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add Caffe_Sample">
-      <created>1547083400051</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1547083400051</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add MNIST">
-      <created>1547085576379</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1547085576379</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add gen_caffe_imglist&#10;&#10;wget http://deeplearning.net/data/mnist/mnist.pkl.gz&#10;&#10;python gen_caffe_imglist.py mnist/train train.txt&#10;&#10;python gen_caffe_imglist.py mnist/val val.txt&#10;&#10;python gen_caffe_imglist.py mnist/test test.txt&#10;&#10;/home/d/Documents/caffe/build/tools/convert_imageset ./ train.txt train_lmdb --gray --shuffle&#10;&#10;/home/d/Documents/caffe/build/tools/convert_imageset ./ val.txt val_lmdb --gray --shuffle&#10;&#10;/home/d/Documents/caffe/build/tools/convert_imageset ./ test.txt test_lmdb --gray --shuffle">
-      <created>1547087281921</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1547087281921</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add MNIST README.md">
-      <created>1547087753970</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1547087753970</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add train solver">
-      <created>1547089859014</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1547089859014</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add .idea">
-      <created>1547090892600</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1547090892600</updated>
-    </task>
-    <task id="LOCAL-00011" summary="I0109 19:42:27.145464 59220 caffe.cpp:250] Optimization Done.">
-      <created>1547091794535</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1547091794536</updated>
-    </task>
-    <task id="LOCAL-00012" summary="plot_training_log.py.example to gen PNG">
-      <created>1547092093433</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1547092093433</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add result png">
-      <created>1547092334700</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1547092334700</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Drawing net to mlp_train.png">
-      <created>1547099026547</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1547099026547</updated>
+      <workItem from="1547433903916" duration="7839000" />
+      <workItem from="1547447927088" duration="428000" />
+      <workItem from="1547448367040" duration="9029000" />
+      <workItem from="1547458449463" duration="183000" />
+      <workItem from="1547458646585" duration="1370000" />
+      <workItem from="1547514529065" duration="18974000" />
+      <workItem from="1547540908226" duration="4287000" />
+      <workItem from="1547602983463" duration="386000" />
+      <workItem from="1547603384570" duration="5743000" />
     </task>
     <task id="LOCAL-00015" summary="add lenet_test.prototxt">
       <created>1547099248026</created>
@@ -472,38 +496,226 @@
       <option name="project" value="LOCAL" />
       <updated>1547187148578</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add *.rec">
+      <created>1547437321045</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1547437321046</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update train_lenet5.py gpu">
+      <created>1547437623612</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1547437623613</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update train_lenet5.py gpu">
+      <created>1547437820127</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1547437820128</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update train_lenet5.py gpu">
+      <created>1547437942804</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1547437942804</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add accuracy_epoch_mxnet">
+      <created>1547444339262</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1547444339262</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update test_accuracy_mxnet gpu">
+      <created>1547444630781</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1547444630781</updated>
+    </task>
+    <task id="LOCAL-00043" summary="test_accuracy_mxnet&#10;&#10;accuracy = 99.33%">
+      <created>1547444913029</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1547444913029</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add Regression (gen noise, list, hdf5)">
+      <created>1547452541586</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1547452541586</updated>
+    </task>
+    <task id="LOCAL-00045" summary="add README.md">
+      <created>1547452761812</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1547452761812</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Drawing net to train.png">
+      <created>1547455597561</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1547455597561</updated>
+    </task>
+    <task id="LOCAL-00047" summary="start train">
+      <created>1547456006766</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1547456006766</updated>
+    </task>
+    <task id="LOCAL-00048" summary="update test list">
+      <created>1547456620435</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1547456620435</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add deploy.prototxt &amp; predict*.py">
+      <created>1547459101140</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1547459101140</updated>
+    </task>
+    <task id="LOCAL-00050" summary="update predict.py">
+      <created>1547515985604</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1547515985605</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add *conv.png">
+      <created>1547516165554</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1547516165555</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update README.md">
+      <created>1547516492569</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1547516492569</updated>
+    </task>
+    <task id="LOCAL-00053" summary="collect data and remove dups">
+      <created>1547531878592</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1547531878592</updated>
+    </task>
+    <task id="LOCAL-00054" summary="gen val &amp; aug">
+      <created>1547532965635</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1547532965635</updated>
+    </task>
+    <task id="LOCAL-00055" summary="gen lmdb">
+      <created>1547533525590</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1547533525590</updated>
+    </task>
+    <task id="LOCAL-00056" summary="add food_resnet_10_cvgj_finetune.prototxt">
+      <created>1547536831754</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1547536831754</updated>
+    </task>
+    <task id="LOCAL-00057" summary="add solver.prototxt">
+      <created>1547536898750</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1547536898750</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add train.png">
+      <created>1547537106562</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1547537106562</updated>
+    </task>
+    <task id="LOCAL-00059" summary="start train based on resnet10_cvgj_iter_320000.caffemodel">
+      <created>1547537285982</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1547537285982</updated>
+    </task>
+    <task id="LOCAL-00060" summary="update prototxt source">
+      <created>1547537468775</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1547537468775</updated>
+    </task>
+    <task id="LOCAL-00061" summary="add recognize_food.py">
+      <created>1547538787961</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1547538787961</updated>
+    </task>
+    <task id="LOCAL-00062" summary="add make_confusion_matrix..py">
+      <created>1547540128765</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1547540128765</updated>
+    </task>
+    <task id="LOCAL-00063" summary="add PR curve">
+      <created>1547608204842</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1547608204842</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25928000" />
+    <option name="totallyTimeSpent" value="74167000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="810" y="0" width="1690" height="1079" extended-state="0" />
-    <editor active="true" />
+    <frame x="929" y="1" width="2180" height="1079" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15030675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13349056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.250264" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.2871179" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012407" side_tool="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4987593" weight="0.32911393" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4987593" weight="0.3286026" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49295774" visible="true" weight="0.17791411" />
-      <window_info anchor="right" x="0" y="0" width="327" height="880" id="Documentation" order="4" sideWeight="0.5070422" side_tool="true" visible="true" weight="0.17791411" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48363253" visible="true" weight="0.13679245" />
+      <window_info anchor="right" x="0" y="0" width="327" height="880" id="Documentation" order="4" sideWeight="0.5163675" side_tool="true" visible="true" weight="0.13679245" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
@@ -520,64 +732,86 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add .idea" />
-    <MESSAGE value="I0109 19:42:27.145464 59220 caffe.cpp:250] Optimization Done." />
-    <MESSAGE value="plot_training_log.py.example to gen PNG" />
-    <MESSAGE value="add result png" />
-    <MESSAGE value="Drawing net to mlp_train.png" />
-    <MESSAGE value="add lenet_test.prototxt" />
-    <MESSAGE value="add test -model&#10;&#10;I0109 21:49:18.030835 59982 caffe.cpp:309] Loss: 0.0264858&#10;I0109 21:49:18.030846 59982 caffe.cpp:321] accuracy = 0.991&#10;I0109 21:49:18.030853 59982 caffe.cpp:321] loss = 0.0264858 (* 1 = 0.0264858 loss)" />
-    <MESSAGE value="add time -model&#10;&#10;I0109 21:56:03.317929 60000 caffe.cpp:397] Average time per layer: &#10;I0109 21:56:03.317932 60000 caffe.cpp:400]       data&#9;forward: 0.00072 ms.&#10;I0109 21:56:03.317936 60000 caffe.cpp:403]       data&#9;backward: 0.00102 ms.&#10;I0109 21:56:03.317939 60000 caffe.cpp:400]      conv1&#9;forward: 9.71986 ms.&#10;I0109 21:56:03.317942 60000 caffe.cpp:403]      conv1&#9;backward: 10.3973 ms.&#10;I0109 21:56:03.317945 60000 caffe.cpp:400]      pool1&#9;forward: 1.90086 ms.&#10;I0109 21:56:03.317948 60000 caffe.cpp:403]      pool1&#9;backward: 0.00132 ms.&#10;I0109 21:56:03.317950 60000 caffe.cpp:400]      conv2&#9;forward: 34.7447 ms.&#10;I0109 21:56:03.317953 60000 caffe.cpp:403]      conv2&#9;backward: 33.2242 ms.&#10;I0109 21:56:03.317956 60000 caffe.cpp:400]      pool2&#9;forward: 1.15896 ms.&#10;I0109 21:56:03.317960 60000 caffe.cpp:403]      pool2&#9;backward: 0.00094 ms.&#10;I0109 21:56:03.317962 60000 caffe.cpp:400]        ip1&#9;forward: 7.949 ms.&#10;I0109 21:56:03.317987 60000 caffe.cpp:403]        ip1&#9;backward: 7.82392 ms.&#10;I0109 21:56:03.317991 60000 caffe.cpp:400]      relu1&#9;forward: 0.14822 ms.&#10;I0109 21:56:03.317996 60000 caffe.cpp:403]      relu1&#9;backward: 0.00024 ms.&#10;I0109 21:56:03.318001 60000 caffe.cpp:400]        ip2&#9;forward: 0.25124 ms.&#10;I0109 21:56:03.318006 60000 caffe.cpp:403]        ip2&#9;backward: 0.1341 ms.&#10;I0109 21:56:03.318011 60000 caffe.cpp:400]       prob&#9;forward: 0.02432 ms.&#10;I0109 21:56:03.318015 60000 caffe.cpp:403]       prob&#9;backward: 0.00956 ms.&#10;I0109 21:56:03.318025 60000 caffe.cpp:408] Average Forward pass: 55.9088 ms.&#10;I0109 21:56:03.318030 60000 caffe.cpp:410] Average Backward pass: 51.6014 ms.&#10;I0109 21:56:03.318033 60000 caffe.cpp:412] Average Forward-Backward: 107.56 ms.&#10;I0109 21:56:03.318035 60000 caffe.cpp:414] Total Time: 5378 ms.&#10;I0109 21:56:03.318039 60000 caffe.cpp:415] *** Benchmark ends ***" />
-    <MESSAGE value="add recognize_digit.py" />
-    <MESSAGE value="run_augmentation" />
-    <MESSAGE value="add *aug.prototxt" />
-    <MESSAGE value="add train_aug.txt" />
-    <MESSAGE value="add train_aug_lmdb" />
-    <MESSAGE value="train aug" />
-    <MESSAGE value="aug train 36000&#10;&#10;I0109 23:31:16.763676 60247 solver.cpp:414]     Test net output #0: accuracy = 0.9903&#10;I0109 23:31:16.763730 60247 solver.cpp:414]     Test net output #1: loss = 0.0356052 (* 1 = 0.0356052 loss)&#10;I0109 23:31:16.763736 60247 solver.cpp:332] Optimization Done.&#10;I0109 23:31:16.763945 60247 caffe.cpp:250] Optimization Done." />
-    <MESSAGE value="max_iter:   120000" />
-    <MESSAGE value="train 120000" />
-    <MESSAGE value="lfs mdb" />
-    <MESSAGE value="caffe train" />
-    <MESSAGE value="add *aug.png" />
-    <MESSAGE value="add aug iter 120000" />
-    <MESSAGE value="add gen_mxnet_imglist" />
+    <MESSAGE value="add *.rec" />
+    <MESSAGE value="update train_lenet5.py gpu" />
+    <MESSAGE value="add accuracy_epoch_mxnet" />
+    <MESSAGE value="update test_accuracy_mxnet gpu" />
+    <MESSAGE value="test_accuracy_mxnet&#10;&#10;accuracy = 99.33%" />
+    <MESSAGE value="add Regression (gen noise, list, hdf5)" />
+    <MESSAGE value="add README.md" />
+    <MESSAGE value="Drawing net to train.png" />
+    <MESSAGE value="start train" />
+    <MESSAGE value="update test list" />
+    <MESSAGE value="add deploy.prototxt &amp; predict*.py" />
+    <MESSAGE value="update predict.py" />
+    <MESSAGE value="add *conv.png" />
     <MESSAGE value="update README.md" />
-    <MESSAGE value="add mxnet py" />
-    <MESSAGE value="update optimizer_params" />
-    <option name="LAST_COMMIT_MESSAGE" value="update optimizer_params" />
+    <MESSAGE value="collect data and remove dups" />
+    <MESSAGE value="gen val &amp; aug" />
+    <MESSAGE value="gen lmdb" />
+    <MESSAGE value="add food_resnet_10_cvgj_finetune.prototxt" />
+    <MESSAGE value="add solver.prototxt" />
+    <MESSAGE value="add train.png" />
+    <MESSAGE value="start train based on resnet10_cvgj_iter_320000.caffemodel" />
+    <MESSAGE value="update prototxt source" />
+    <MESSAGE value="add recognize_food.py" />
+    <MESSAGE value="add make_confusion_matrix..py" />
+    <MESSAGE value="add PR curve" />
+    <option name="LAST_COMMIT_MESSAGE" value="add PR curve" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Transfer-learning_Fine-tune/collect_data.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Matplotlib_2D_Sample/Matplotlib_2D_Sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="6" selection-start-column="6" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST/val.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST/train.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/MNIST/lenet_train_val.prototxt.py" />
     <entry file="file://$PROJECT_DIR$/MNIST/lenet_train_val.proto" />
     <entry file="file://$PROJECT_DIR$/MNIST/gen_MNIST_data.py">
@@ -595,27 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST/recognize_digit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST/lenet_train_val.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3009">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST/lenet_solver.prototxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -640,57 +853,343 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST/gen_mxnet_imglist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="544">
-            <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST/test_time_mxnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/MNIST/train_mnist_lenet.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MNIST/recognize_digit_mxnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="503">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/tmp2019/0114/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/gen_noise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/train.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/val.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/gen_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/gen_hdf5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/solver.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/lenet.prototxt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/recognize_digit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/collect_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/000_urls.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/gen_val.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/gen_aug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/gen_label_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/caffe.ubuntu.d.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/food_resnet_10_cvgj_finetune.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/recognize_food.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/solver.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/make_confusion_matrix..py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/keywords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/gen_caffe_imglist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/lenet_train_val.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/lenet_solver.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MNIST/train_lenet5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/gen_mxnet_imglist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/remove_dups_from_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/downscale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/remove_invalid_images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/deploy.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/gen_predict_conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/test_accuracy_mxnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MNIST/test_time_mxnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/kaoya_PR_curve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/kaoya_Receiver_Operating_Characteristic_curve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Transfer-learning_Fine-tune/visualize_activation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
