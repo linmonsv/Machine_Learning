@@ -10,5 +10,5 @@ max_iter:   10000
 momentum:   0.9
 weight_decay:   0.00001
 snapshot_prefix:    "freq_regression"
-solver_mode:    CPU
+solver_mode:    GPU
 type:   "Nesterov"
