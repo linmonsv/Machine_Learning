@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.append('')
+sys.path.append('/home/water/caffe/python')
 import re
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,10 +12,12 @@ DEPLOY_FILE = 'mnist_siamese.prototxt'
 IMG_DIR = 'mnist/test'
 MEAN = 128
 SCALE = 0.00390625
+caffe.set_mode_gpu()
+caffe.set_device(0)
 
 net = caffe.Net(DEPLOY_FILE, WEIGHTS_FILE, caffe.TEST)
 
-pattern = re.compile('d+_(\d)\.jpg')
+pattern = re.compile('\d+_(\d)\.jpg')
 
 image_list = os.listdir(IMG_DIR)
 n_imgs = len(image_list)
@@ -29,14 +31,14 @@ for i, filename in enumerate(image_list):
 
     filepath = os.sep.join([IMG_DIR, filename])
 
-    image = cv2.imread(filepath, cv2.IMREAD_GRAYSCALE).astype(np.float)
+    image = cv2.imread(filepath, cv2.IMREAD_GRAYSCALE).astype(np.float) - MEAN
     image *= SCALE
     net.blobs['data'].data[i, ...] = image
 labels = np.array(labels)
 output = net.forward()
 feat = output['feat']
 
-colors = ['#ff0000', '#00ff00', '#00ff00', '#00ffff', '#0000ff',
+colors = ['#ff0000', '#ffff00', '#00ff00', '#00ffff', '#0000ff',
           '#ff00ff', '#990000', '#999900', '#009900', '#009999']
 legend = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
@@ -45,6 +47,8 @@ for i in range(10):
     plt.plot(feat[labels==i, 0].flatten(), feat[labels==i, 1].flatten(), '.', c=colors[i])
 plt.legend(legend)
 plt.show()
+
+#
 
 from sklearn.manifold import TSNE
 
