@@ -1,5 +1,6 @@
 import os
 import random
+import re
 
 train_dir = 'mnist/train'
 val_dir = 'mnist/val'
@@ -21,7 +22,7 @@ for img_dir, n_pairs in zip([train_dir, val_dir], [n_train, n_val]):
         for i in range(n_pairs):
 
             filename = imglist[random.randint(0, n_samples - 1)]
-            digit = pattern.findall(findname)[0]
+            digit = pattern.findall(filename)[0]
             filepath = os.sep.join([img_dir, filename])
 
             filename_p = imglist[random.randint(0, n_samples - 1)]
