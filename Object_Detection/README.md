@@ -16,4 +16,6 @@ python demo.py --epoch 0 --images ./data/demo/dog.jpg --thresh 0.5
 
 python demo.py --cpu --network resnet50 --data-shape 512
 
+python demo.py --images ./data/demo/person.jpg --thresh 0.3
+
 ```
