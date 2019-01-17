@@ -18,4 +18,6 @@ python demo.py --cpu --network resnet50 --data-shape 512
 
 python demo.py --images ./data/demo/person.jpg --thresh 0.3
 
+python demo.py --images ./data/demo/person.jpg --network inceptionv3
+
 ```
