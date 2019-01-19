@@ -1,0 +1,12 @@
+caffe.INFO
+caffe.water-G11CD.water.log.INFO.20190116-220657.6428
+freq_regression_iter_10000.caffemodel
+freq_regression_iter_10000.solverstate
+samples/
+test.txt
+train.h5
+train.txt
+train_h5.txt
+val.h5
+val.txt
+val_h5.txt
