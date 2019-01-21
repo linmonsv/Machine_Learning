@@ -1,0 +1,26 @@
+<annotation>
+	<folder>000</folder>
+	<filename>000348.jpg</filename>
+	<path>/home/water/Machine_Learning/Peppa_Pig/train/000/000348.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>341</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Peppa</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>142</xmin>
+			<ymin>36</ymin>
+			<xmax>301</xmax>
+			<ymax>234</ymax>
+		</bndbox>
+	</object>
+</annotation>
