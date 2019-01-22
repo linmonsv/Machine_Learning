@@ -10,6 +10,8 @@ python voc_label.py
 
 ./darknet detector train cfg/peppa.data cfg/yolov3-voc-peppa.cfg darknet53.conv.74
 
+./darknet detector test cfg/peppa.data cfg/yolov3-voc-peppa-test.cfg backup/yolov3-voc-peppa_final.weights ~/Machine_Learning/Peppa_Pig/000000.jpg
+
 ```
 
 ## Reference
