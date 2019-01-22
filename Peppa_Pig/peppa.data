@@ -1,6 +1,6 @@
 classes= 1
-train  = /home/d/Downloads/Peppa_VOC/2018_train.txt
-valid  = /home/d/Downloads/Peppa_VOC/2018_val.txt
+train  = /home/water/Machine_Learning/Peppa_Pig/Peppa_VOC/2018_train.txt
+valid  = /home/water/Machine_Learning/Peppa_Pig/Peppa_VOC/2018_val.txt
 names = data/peppa.names
 backup = backup
 
